@@ -15,6 +15,10 @@ The objective was to establish communication between multiple departments while 
 
 ## Network Architecture
 
+### Network Topology
+
+![Enterprise Network Topology](network-topology.png)
+
 The network consists of three departmental VLANs:
 
 | Department | VLAN | Subnet |
