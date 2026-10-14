@@ -3,7 +3,6 @@
 ## Project Overview
 
 Designed and configured a simulated enterprise network for a fictional healthcare technology company using Cisco Packet Tracer.
-
 The objective was to establish communication between multiple departments while implementing basic network segmentation and access controls.
 
 ## Technologies Implemented
@@ -24,13 +23,13 @@ The network consists of three departmental VLANs:
 | IT | 20 | 192.168.20.0/24 |
 | Guest | 30 | 192.168.30.0/24 |
 
-A Cisco router provides inter-VLAN routing, while an extended ACL restricts guest traffic from accessing the Administration and IT networks.
+A Cisco router provides inter-VLAN routing, while an extended ACL restricts Guest traffic from accessing the Administration and IT networks.
 
 ## Verification
 
 - Successfully tested inter-VLAN connectivity.
 - Verified that Administration could communicate with IT.
-- Confirmed that guest-originated traffic to internal departmental networks was blocked.
+- Confirmed that Guest-originated traffic to internal departmental networks was blocked.
 - Resolved an initial trunk connectivity issue caused by a disabled router interface.
 
 ## Future Improvements
